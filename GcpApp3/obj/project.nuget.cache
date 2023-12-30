@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Bm7F2ehyGmnhsiIx04iEyheEEhvSNpY4mHXWdkeLxwZDj3147lyJJqrkCsCLnS7rM0krZHV1DO8/ibrf693srg==",
+  "dgSpecHash": "zJKeGYXoBAZXdX/o53XTKasThter1w1t+uJ9nXZ9EzziOH8fVpMQGQ9LlCutNQQ47Z1ysRY4QpRAqr+ueKBTaQ==",
   "success": true,
   "projectFilePath": "D:\\GCP - Google Cloud Certification\\gcp3\\GcpApp3\\GcpApp3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nasim\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\Nasim\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Nasim\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Nasim\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\Nasim\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Nasim\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Nasim\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

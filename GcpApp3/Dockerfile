@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["GcpAppAPI3.csproj", "."]
-RUN dotnet restore "./GcpAppAPI3.csproj"
+COPY ["GcpApp3.csproj", "."]
+RUN dotnet restore "./GcpApp3.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "GcpAppAPI3.csproj" -c Release -o /app/build
+RUN dotnet build "GcpApp3.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "GcpAppAPI3.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "GcpApp3.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "GcpAppAPI3.dll"]
+ENTRYPOINT ["dotnet", "GcpApp3.dll"]
