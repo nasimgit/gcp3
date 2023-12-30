@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AbcOQbcWSFFeBK0kOVAHm3ukB08gTlFtqqHHe7+pWBg=",
+  "Source": "GcpApp3",
+  "BasePath": "_content/GcpApp3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
